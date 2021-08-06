@@ -17,7 +17,7 @@
     width: 100%;
     height: 100px;
     background: url(wave.png);
-    background-size: 1000px 100px;
+    background-size: 100% 100px;
     animation: animate 4s ease-in-out infinite;
     animation-delay: calc(var(--i) * 0.25s);
     filter: invert(23%) sepia(7%) saturate(3832%) hue-rotate(470deg) brightness(81%) contrast(123%);
@@ -55,17 +55,17 @@
     }
 
 }
-h2{
+/* h2{
     padding-top: 20px;
     padding-left: 10%;
-}
+} */
 .sec{
     background-color: #013337;
     color: white;
     padding-left: 10%;
     padding: 10% 0 10% 0;
 }
-p{
+.abtCrdTxt{
     margin-bottom: 0px;
     padding: 0 10%;
 }
@@ -74,11 +74,11 @@ p{
     height: 8vh;
     width: 8vh;
 }
-.container{
+.abtContainer{
     max-width: 100%;
     padding: 0;
 }
-.card{
+.abtCard{
     background-color: transparent;
     /* background-color: rgb(46, 165, 83); */
     border: 0;
@@ -103,7 +103,7 @@ p{
     100% { right: 0; }
 }
 
-.row{
+.row1{
     margin-left: -20px;
     margin-right: -20px;
 }
@@ -130,24 +130,76 @@ p{
     100% { left: 0; }
 }
 
+@media(max-width:992px){
+    .row1{
+        margin-left: 2%;
+        margin-right: 0px;
+
+}
+}
+
 @media(max-width: 576px){
 .sec{
     padding : 10% 0 15% 10%;
 }
 .aboutHeading{
     margin-top: 0;
+    margin-left: 6%
     /* margin-bottom: 0; */
 }
-.card{
-    padding-left: 18%;
+.abtCard{
+    /* padding-left: 18%; */
     padding-bottom: 10%;
+    padding-left: 0%;
+    margin-left: -2%;
+}
+}
+
+@media (min-width: 416px) and (max-width : 476px) {
+    .abtCard{
+        padding-left: 18%;
+        margin-left: -9%;
+    }
     
 }
+
+@media (min-width: 336px) and (max-width : 415px) {
+    .abtCard{
+        padding-left: 20%;
+        margin-left: -10%;
+    }
+    
+}
+
+@media (max-width : 335px) {
+    .abtCard{
+        padding-left: 22%;
+        margin-left: -9%;
+    }
+    
 }
 
 .spacing{
     height: 20px;
 }
+/* @media(max-width:476px){
+    .wave{
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        height: 70px;
+        background: url(wave.png);
+        background-size: 100% 100px;
+        animation: animate 4s ease-in-out infinite;
+        animation-delay: calc(var(--i) * 0.25s);
+        filter: invert(23%) sepia(7%) saturate(3832%) hue-rotate(470deg) brightness(81%) contrast(123%);
+    }
+
+    .spacing{
+        height: 0px;
+    }
+} */
 
 /* Section 3 */
 
@@ -309,7 +361,7 @@ p{
       text-align: center;
     }
 
-  
+
 
 
 /* Not required */
