@@ -55,34 +55,41 @@
     }
 
 }
-h2{
+/* h2{
     padding-top: 20px;
     padding-left: 10%;
-}
+} */
 .sec{
     background-color: #013337;
     color: white;
     padding-left: 10%;
     padding: 10% 0 10% 0;
 }
-p{
+.abtCrdTxt{
     margin-bottom: 0px;
     padding: 0 10%;
 }
 
 .icons{
-    height: 12vh;
-    width: 12vh;
+    height: 10vh;
+    width: 8vh;
+    padding-top: 4%;
 }
-.container{
+.abtContainer{
     max-width: 100%;
     padding: 0;
 }
-.card{
+.abtCard{
     background-color: transparent;
     /* background-color: rgb(46, 165, 83); */
     border: 0;
     padding-bottom: 2%;
+    height:450px;
+    margin-bottom: 5%;
+}
+
+.card-text{
+    text-align: left;
 }
 
 /* trans check fade in */
@@ -103,7 +110,7 @@ p{
     100% { right: 0; }
 }
 
-.row{
+.row1{
     margin-left: -20px;
     margin-right: -20px;
 }
@@ -137,7 +144,7 @@ p{
     margin-top: 0;
     /* margin-bottom: 0; */
 }
-.card{
+.card1{
     padding-left: 18%;
     padding-bottom: 10%;
     
@@ -147,3 +154,46 @@ p{
 .spacing{
     height: 20px;
 }
+
+.outer{
+    position: absolute;
+width: 125px;
+height: 125px;
+border-radius: 50%;
+background: linear-gradient(142.84deg, #2C40F3 14.17%, #FA04FF 74.53%);
+}
+
+.box{
+    position: absolute;
+    width: 290.2px;
+    height: 345.14px;
+    background: linear-gradient(152.52deg, rgba(0, 0, 0, 0.35) 7.55%, rgba(0, 0, 0, 0.03) 91.19%);
+    box-shadow: 0px 4px 10px -1px rgba(0, 0, 0, 0.2);
+    backdrop-filter: blur(20px);
+    border-radius: 40px;
+    transform: rotate(-0.65deg);
+    margin-top: 30.47px;
+    margin-left: 35.54px;
+}
+
+.outer-right{
+    position: absolute;
+    width: 105.25px;
+    height: 105.25px;
+    border-radius: 50%;
+    background: linear-gradient(180deg, #FF7A00 0%, rgba(221, 49, 11, 0.99) 100%);
+    right: 0%;
+    margin-right: 22%;
+    margin-top: -4%;
+}
+
+.outer-bottom{
+    position: absolute;
+    width: 105.25px;
+    height: 105.25px;
+    border-radius: 50%;
+    bottom: 0%;
+    /* margin-bottom: 12%; */
+    background: linear-gradient(180deg, #FC0000 0%, rgba(55, 2, 2, 0.84) 100%);
+}
+
