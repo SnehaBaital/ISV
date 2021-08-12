@@ -21,7 +21,7 @@
     animation: animate 4s ease-in-out infinite;
     animation-delay: calc(var(--i) * 0.25s);
     filter: invert(23%) sepia(7%) saturate(3832%) hue-rotate(470deg) brightness(81%) contrast(123%);
-}
+    }
 
 #wave1{
     z-index: 1000;
@@ -231,182 +231,6 @@
     background: linear-gradient(180deg, #FC0000 0%, rgba(55, 2, 2, 0.84) 100%);
 }
 
-@media(max-width: 1199px){
-    .aboutHeading{
-        margin-top: 0;
-        margin-bottom: 2%;
-        margin-left: 0;
-    }
-    .outer-right{
-        left: 265px;
-    }
-    }
-
-@media(max-width: 767px)and (min-width: 660px){
-    .abtCard{
-        padding-left: 24vw;
-    }
-
-    .outer-right{
-        left: 429px;
-    }
-}
-
-@media(max-width: 659px)and (min-width: 568px){
-    .abtCard{
-        padding-left: 23vw;
-    }
-
-    .outer-right{
-        left: 396px;
-    }
-}
-
-@media(max-width: 840px)and (min-width: 768px){
-    .abtcards-container{
-        padding-left: 6%;
-    }
-}
-
-@media(max-width: 900px)and (min-width: 841px){
-    .abtcards-container{
-        padding-left: 9%;
-    }
-}
-
-@media(max-width: 991px)and (min-width: 901px){
-    .abtcards-container{
-        padding-left: 12%;
-    }
-}
-
-@media(max-width: 1199px)and (min-width: 992px){
-.abtcards-container{
-    padding-left: 11%;
-}
-}
-
-@media(min-width: 1199px){
-.outer-right{
-    left: 267px;
-}
-}
-
-@media(max-width: 567px)and (min-width: 527px){
-    .abtCard{
-        padding-left: 19vw;
-    }
-    
-    .outer-right{
-        left: 360px;
-    }
-}
-
-@media(max-width: 526px)and (min-width: 440px){
-    .abtCard{
-        padding-left: 15vw;
-    }
-
-    .outer-right{
-        left: 315px;
-    }
-}
-
-@media(max-width: 439px) and (min-width: 350px){
-    .aboutHeading{
-        padding-left: 5vw;
-    }
-    .sec{
-        overflow-x: hidden;
-    }
-    .outer{
-        width: 100px;
-        height: 100px;
-    }
-    .abtCard{
-        padding-left: 15vw;
-    }
-    .outer-right{
-        left: 0;
-        display: none;
-    }
-
-    .outer-bottom{
-        left: 0;
-        display: none;
-    }
-}
-
-@media(max-width: 349px){
-    .sec{
-        overflow-x: hidden;
-    }
-    .aboutHeading{
-        padding-left: 5.9vw;
-        font-size: 2rem;
-    }
-    .outer{
-        width: 100px;
-        height: 100px;
-    }
-    .abtCard{
-        padding-left: 7vw;
-    }
-    .outer-right{
-        left: 0;
-        display: none;
-    }
-
-    .outer-bottom{
-        left: 0;
-        display: none;
-    }
-}
-
-@media(max-width:390px){
-    .icons{
-        height: 18vw;
-    }
-}
-
-
-@media(min-width:390px) and (max-width: 479px){
-    .icons{
-        height: 15vw;
-    }
-}
-
-@media(min-width:480px) and (max-width: 540px){
-    .icons{
-        height: 15vw;
-    }
-}
-
-@media(min-width:540px) and (max-width: 700px){
-    .icons{
-        height: 12vw;
-    }
-}
-
-@media(min-width:701px) and (max-width: 767px){
-    .icons{
-        height: 11vw;
-    }
-}
-
-@media(min-width:768px) and (max-width: 1000px){
-    .icons{
-        height: 8vw;
-    }
-}
-
-@media(min-width:1001px){
-    .icons{
-        height: 6.5vw;
-    }
-}
-
-
 /* @media(max-width:476px){
     .wave{
         position: absolute;
@@ -442,7 +266,7 @@
   .des-title {
     /* font-family: "verdana",sans-serif; */
     font-family: "font-family: 'PT Sans', sans-serif;", sans-serif;
-    font-size: 5em;
+    font-size: 5rem;
     text-align: left;
     color: white;
     margin-bottom: 50px;
@@ -452,11 +276,11 @@
     /* font-family: "Montserrat",sans-serif; */
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
-    word-spacing: 5px;
+    /* word-spacing: 5px; */
     line-height: 1.5rem;
     letter-spacing: 1px;
     color: white;
-    text-indent: 45px;
+    /* text-indent: 45px; */
     /* padding-top: 70px; */
   }
 
@@ -615,3 +439,189 @@
         opacity: 1;
         background-position-x: 400px;
     } */
+
+
+
+
+
+    @media(max-width: 1199px){
+        .aboutHeading{
+            margin-top: 0;
+            margin-bottom: 2%;
+            margin-left: 0;
+        }
+        .outer-right{
+            left: 265px;
+        }
+        }
+    
+    @media(max-width: 767px)and (min-width: 660px){
+        .abtCard{
+            padding-left: 24vw;
+        }
+    
+        .outer-right{
+            left: 429px;
+        }
+    }
+    
+    @media(max-width: 659px)and (min-width: 568px){
+        .abtCard{
+            padding-left: 23vw;
+        }
+    
+        .outer-right{
+            left: 396px;
+        }
+    }
+    
+    @media(max-width: 840px)and (min-width: 768px){
+        .abtcards-container{
+            padding-left: 6%;
+        }
+    }
+    
+    @media(max-width: 900px)and (min-width: 841px){
+        .abtcards-container{
+            padding-left: 9%;
+        }
+    }
+    
+    @media(max-width: 991px)and (min-width: 901px){
+        .abtcards-container{
+            padding-left: 12%;
+        }
+    }
+    
+    @media(max-width: 1199px)and (min-width: 992px){
+    .abtcards-container{
+        padding-left: 11%;
+    }
+    }
+    
+    @media(min-width: 1199px){
+    .outer-right{
+        left: 267px;
+    }
+    }
+    
+    @media(max-width: 567px)and (min-width: 527px){
+        .abtCard{
+            padding-left: 19vw;
+        }
+        
+        .outer-right{
+            left: 360px;
+        }
+    }
+    
+    @media(max-width: 526px)and (min-width: 440px){
+        .abtCard{
+            padding-left: 15vw;
+        }
+    
+        .outer-right{
+            left: 315px;
+        }
+    }
+    
+    @media(max-width: 439px) and (min-width: 350px){
+        .aboutHeading{
+            padding-left: 5vw;
+        }
+        .sec{
+            overflow-x: hidden;
+        }
+        .outer{
+            width: 100px;
+            height: 100px;
+        }
+        .abtCard{
+            padding-left: 15vw;
+        }
+        .outer-right{
+            left: 0;
+            display: none;
+        }
+    
+        .outer-bottom{
+            left: 0;
+            display: none;
+        }
+    }
+    
+    @media(max-width: 349px){
+        .sec{
+            overflow-x: hidden;
+        }
+        .aboutHeading{
+            padding-left: 5.9vw;
+            font-size: 2rem;
+        }
+        .outer{
+            width: 100px;
+            height: 100px;
+        }
+        .abtCard{
+            padding-left: 7vw;
+        }
+        .outer-right{
+            left: 0;
+            display: none;
+        }
+    
+        .outer-bottom{
+            left: 0;
+            display: none;
+        }
+    }
+    
+    @media(max-width:390px){
+        .icons{
+            height: 18vw;
+        }
+        .des-title{
+            font-size: 3rem;
+        }
+    }
+    
+    
+    @media(min-width:391px) and (max-width: 479px){
+        .icons{
+            height: 15vw;
+        }
+        .des-title{
+            font-size: 4rem;
+        }
+    }
+    
+    @media(min-width:480px) and (max-width: 540px){
+        .icons{
+            height: 15vw;
+        }
+    }
+    
+    @media(min-width:540px) and (max-width: 700px){
+        .icons{
+            height: 12vw;
+        }
+    }
+    
+    @media(min-width:701px) and (max-width: 767px){
+        .icons{
+            height: 11vw;
+        }
+    }
+    
+    @media(min-width:768px) and (max-width: 1000px){
+        .icons{
+            height: 8vw;
+        }
+    }
+    
+    @media(min-width:1001px){
+        .icons{
+            height: 6.5vw;
+        }
+    }
+    
