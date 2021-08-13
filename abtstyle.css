@@ -67,7 +67,7 @@
 }
 .abtCrdTxt{
     margin-bottom: 0px;
-    padding: 0 10%;
+    /* padding: 0 10%; */
 }
 
 .icons{
@@ -87,9 +87,9 @@
     margin-bottom: 5%;
 }
 
-.card-text{
+/* .card-text{
     text-align: left;
-}
+} */
 
 /* trans check fade in */
 
@@ -295,10 +295,12 @@
     height: 400px;
     width: 100%;
     margin-right: -6.5%;
+    border-radius: 15px;
     /* margin: 0 auto; */
     /* border: 1px solid; */
     /* margin: 5% 3%; */
     text-align: center;
+    border: 0;
     /* box-shadow: 2px 2px 5px black;
     -webkit-filter: grayscale(100%);
     -moz-filter: grayscale(100%);
@@ -525,7 +527,7 @@
         }
     }
     
-    @media(max-width: 439px) and (min-width: 350px){
+    @media(max-width: 439px) and (min-width: 349px){
         .aboutHeading{
             padding-left: 5vw;
         }
@@ -533,11 +535,11 @@
             overflow-x: hidden;
         }
         .outer{
-            width: 100px;
-            height: 100px;
+            width: 110px;
+            height: 110px;
         }
         .abtCard{
-            padding-left: 15vw;
+            padding-left: 11vw;
         }
         .outer-right{
             left: 0;
@@ -550,7 +552,7 @@
         }
     }
     
-    @media(max-width: 349px){
+    @media(max-width: 350px){
         .sec{
             overflow-x: hidden;
         }
@@ -625,3 +627,11 @@
         }
     }
     
+    /* map media */
+
+    @media (max-width: 576px){
+        .des-map{
+            height: 78vw;
+            width: 92vw;
+        }
+    }
